@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<style type="text/css" media="screen">
+
+.racer {
+  position: absolute;
+  left: 0px;
+  font-size: 100px;
+}
+
+.player1 {
+  top: 50px;
+}    
+
+.player2 {
+  top: 300px
+}    
+
+.play-area {
+  position: relative;
+  width: 400px;
+  height: 500px;
+  border-right: 3px dashed black;
+}
+
+button {
+  font-size: 3em;
+}
+</style>
+<head>
+<title></title>
+</head>
+<body>
+<script type="module" src="racer.js"></script>
+<section>
+	<select>
+		<option value="default">Default</option>
+		<option value="dark">Dark</option>
+		<option value="oof">Oof</option>
+	</select>
+</section>
+<section>
+	<button class="player1Btn" id = "player1btn">Move Tears of Joy &rarr;</button>
+	<div class="play-area">
+		<div class="racer player1" id = "player1">&#128514;</div>
+		<div class="racer player2" id = "player2">&#128561;</div>
+	</div>
+	<button class="player2Btn" id = "player2btn">Move Face Screaming &rarr;</button>
+</section>	
+<dialog><h1></h1></dialog>
+</body>
+</html>
